@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<section class="hero">
+  <div class="wrap">
+    {% if page.eyebrow %}<p class="eyebrow">{{ page.eyebrow }}</p>{% endif %}
+    <h1>{{ page.title }}</h1>
+    <p class="lead">{{ page.description }}</p>
+    <p class="hero-actions">
+      <a class="button" href="{{ '/summary/' | relative_url }}">Read the Full Summary</a>
+    </p>
+    <p class="hero-stats" id="hero-stats" hidden></p>
+  </div>
+</section>
+
+<div class="wrap">
+  <nav class="theme-chips" id="theme-chips" aria-label="Themes" hidden></nav>
+  <article class="content home-content">
+    {{ content }}
+  </article>
+</div>
