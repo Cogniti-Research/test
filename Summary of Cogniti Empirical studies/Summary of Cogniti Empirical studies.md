@@ -101,7 +101,7 @@ This work demonstrates that AI tools such as Cogniti can be used to develop agen
 
 [Full paper](https://openrepository.aut.ac.nz/items/beb56fa1-1011-4600-b78f-2182a926f238)
 
-## Harnessing Generative Ai For Cultural Competence Training: Exploring The Possibilities
+## McHugh, Amy & Şahin, Elif. (2026). HARNESSING GENERATIVE AI FOR CULTURAL COMPETENCE TRAINING: EXPLORING THE POSSIBILITIES. Teaching approaches/Techniques, e.g. active learning, flipped, etc.
 
 **Abstract:**
 In this paper we share the findings from our pilot study evaluating the use of a generative AI agent designed to support users in exploring and deepening their understanding of racism and anti-racism. Our research question investigates whether such an agent can help mitigate some of the interpersonal and emotional challenges that often arise in anti-racism education. By offering a low-stakes, non- human interlocutor, the agent enables engagement with sensitive topics that individuals may otherwise avoid. In doing so, this research contributes to emerging scholarship on the role of AI in improving our uniquely human intelligence. This innovative application of AI is timely as the existing literature tends to examine AI applications related to productivity enhancement and content generation.
@@ -115,7 +115,6 @@ In this paper we share the findings from our pilot study evaluating the use of a
 - **Early-Stage Reflective Scaffold**: Rather than replacing human dialogue, the AI agent is positioned as a low-stakes, early-stage scaffold to help users overcome initial anxiety before engaging in broader cultural competence education
 
 [Full paper ](https://www.researchgate.net/publication/400899762_HARNESSING_GENERATIVE_AI_FOR_CULTURAL_COMPETENCE_TRAINING_EXPLORING_THE_POSSIBILITIES)
-## McHugh, Amy & Şahin, Elif. (2026). HARNESSING GENERATIVE AI FOR CULTURAL COMPETENCE TRAINING: EXPLORING THE POSSIBILITIES. Teaching approaches/Techniques, e.g. active learning, flipped, etc.
 
 ### Freeman, M. (2025). Storytelling is not just for children: Using an AI chatbot to engage university students. In _Proceedings of the 2024 AIS SIGED International Conference on Information Systems Education and Research_ (Article 10). Association for Information Systems. [https://aisel.aisnet.org/siged2024/10](https://aisel.aisnet.org/siged2024/10)
 
