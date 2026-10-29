@@ -25,11 +25,12 @@ From the perspective of **AI integration and usage**, the paper details the earl
 
 **Implementation of the Two AI Agents**
 The course introduced two specialized AI agents to serve distinct functions:
+
 **Administrative / FAQ Agent**:
-    - Handled logistical and procedural queries, such as assessment due dates, laboratory instructions, and resource locations
-    - Used primarily by students seeking quick clarification on schedules and course requirements.
-    - Strictly constrained to access **only** information uploaded to the course site, preventing it from drawing on external or unverified information
-    
+Handled logistical and procedural queries, such as assessment due dates, laboratory instructions, and resource locations
+Used primarily by students seeking quick clarification on schedules and course requirements.
+Strictly constrained to access **only** information uploaded to the course site, preventing it from drawing on external or unverified information
+
 **Course Content / Tutor Agent:** 
 System-prompted to adopt a **tutoring persona**—assisting students with learning and concept explanations without simply handing out answers. 
 
@@ -117,6 +118,9 @@ This work demonstrates that AI tools such as Cogniti can be used to develop agen
 Abstract:
 
 This paper explores how Scenario Based Learning \[SBL\] can be co-designed with students to teach social engineering concepts in Information Systems using AI chatbots incorporating role-play and storytelling. By leveraging the engaging nature of role-play and storytelling, the study aims to demonstrate how AI-driven narratives can enhance learning experiences and enable an understanding of social engineering tactics. This research focuses on developing and implementing an AI chatbot to create interactive stories illustrating social engineering scenarios. Using a design thinking methodology with co-creation, this paper evaluates the development of this novel educational tool. The study provides guidelines on how storytelling via AI chatbots can captivate learners and potentially enhance student comprehension and retention of complex concepts.
+
+**AI Use/Findings:**
+
 
 ### Naeyaert, P. J., Scarratt, L. R., Murphy, T., & Pullen, R. (2025). Think–Pair–Chatbot–Share: AI-Facilitated Peer Learning in Chemistry. _Journal of Chemical Education_, _102_(9), 3936-3944.
 
