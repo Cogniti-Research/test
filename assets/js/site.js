@@ -4,6 +4,7 @@
   // Study headings are full citations, so Jekyll's generated IDs are very long and change
   // whenever a citation is edited. Give each one a short anchor: first author's surname and
   // year, e.g. "Espinosa, H. G., ... (2025)" becomes #espinosa-2025.
+  // scripts/Update-Index.ps1 builds the home page links the same way; keep the two in step.
   function shortStudyId(heading) {
     const text = heading.textContent;
     const surname = text.split(",")[0];
