@@ -26,12 +26,12 @@ From the perspective of **AI integration and usage**, the paper details the earl
 **Implementation of the Two AI Agents**
 The course introduced two specialized AI agents to serve distinct functions:
 
-**Administrative / FAQ Agent**:
+- **Administrative / FAQ Agent**:
 Handled logistical and procedural queries, such as assessment due dates, laboratory instructions, and resource locations
 Used primarily by students seeking quick clarification on schedules and course requirements.
 Strictly constrained to access **only** information uploaded to the course site, preventing it from drawing on external or unverified information
 
-**Course Content / Tutor Agent:** 
+- **Course Content / Tutor Agent:** 
 System-prompted to adopt a **tutoring persona**—assisting students with learning and concept explanations without simply handing out answers. 
 
 Recorded higher engagement than the FAQ agent, supporting activities like generating practice quizzes and summarizing topics
@@ -49,15 +49,11 @@ How can custom AI programs extend the reach of your peer-to-peer study support s
 
 **AI Use/Findings:** 
 
-**Out-of-Hours Peer Support Extension**: Built on the **Cogniti GenAI system**, the PAC AI Agent was developed to extend Murdoch University’s Peer Academic Coach (PAC) services to students studying outside standard operational hours.
-
-**Co-Designed by Student Peer Coaches**: High-achieving student PACs actively drove the design and testing process across 4 iterative versions and over 300 test conversations to ensure tailored responses and seamless integration into peer coaching workflows.
-
-**Probing & Socratic Pedagogical Style**: To maintain academic integrity, the AI agent is programmed to mirror the PAC coaching approach—asking probing questions to empower students to build their own understanding rather than simply providing direct answers.
-
-**Human-in-the-Loop Quality Assurance**: Human oversight is maintained by having PAC student coaches monitor AI conversation logs the following day to verify accuracy, with follow-up emails or face-to-face support offered when necessary.
-
-**Targeted Focus & Staff Offloading**: The agent handles common academic queries, study skills, referencing guidance, and LMS navigation, aiming to provide immediate on-demand support and reduce staff workload so human coaches can focus on complex cases. 
+- **Out-of-Hours Peer Support Extension**: Built on the **Cogniti GenAI system**, the PAC AI Agent was developed to extend Murdoch University’s Peer Academic Coach (PAC) services to students studying outside standard operational hours.
+- **Co-Designed by Student Peer Coaches**: High-achieving student PACs actively drove the design and testing process across 4 iterative versions and over 300 test conversations to ensure tailored responses and seamless integration into peer coaching workflows.
+- **Probing & Socratic Pedagogical Style**: To maintain academic integrity, the AI agent is programmed to mirror the PAC coaching approach—asking probing questions to empower students to build their own understanding rather than simply providing direct answers.
+- **Human-in-the-Loop Quality Assurance**: Human oversight is maintained by having PAC student coaches monitor AI conversation logs the following day to verify accuracy, with follow-up emails or face-to-face support offered when necessary.
+- **Targeted Focus & Staff Offloading**: The agent handles common academic queries, study skills, referencing guidance, and LMS navigation, aiming to provide immediate on-demand support and reduce staff workload so human coaches can focus on complex cases. 
 
 [Full paper](https://unistars.org/papers/STUDENTSUCCESS2025/07G.pdf)
 
@@ -69,15 +65,11 @@ Maths support has long been present in Australian tertiary education, primarily 
 
 **AI Use/Findings:** 
 
-**Targeted GenAI Tutoring Agents**: The study piloted two discipline-specific GenAI agents built on the Cogniti platform—**NiNA** (for nursing medication calculations) and **EdNA** (for education numeracy test preparation)—as a first point of contact for mathematics support
-
-**Socratic & Guided Pedagogy**: Designed in collaboration with academics, the agents were explicitly system-prompted to adopt a Socratic tutoring style, guiding students through scaffolded questioning and reasoning rather than providing direct answers
-
-**On-Demand & Just-in-Time Access**: A significant portion of interactions occurred outside of business hours (58.6% for NiNA and 50% for EdNA), with usage spikes closely coinciding with major assessment and testing deadlines.
-
-**Active Learning vs. Cognitive Offloading**: Qualitative log analyses revealed that students used the agents overwhelmingly for active learning, concept clarification, and confidence building, rather than for cognitive offloading or simple answer-seeking
-
-**Part of a Multimodal Ecosystem**: GenAI tutors did not replace traditional resources; students continued to engage with helpsheets, video exemplars, and human tutors, confirming that AI functions best as an accessible component within a broader, multimodal support system
+- **Targeted GenAI Tutoring Agents**: The study piloted two discipline-specific GenAI agents built on the Cogniti platform—**NiNA** (for nursing medication calculations) and **EdNA** (for education numeracy test preparation)—as a first point of contact for mathematics support.
+- **Socratic & Guided Pedagogy**: Designed in collaboration with academics, the agents were explicitly system-prompted to adopt a Socratic tutoring style, guiding students through scaffolded questioning and reasoning rather than providing direct answers. 
+- **On-Demand & Just-in-Time Access**: A significant portion of interactions occurred outside of business hours (58.6% for NiNA and 50% for EdNA), with usage spikes closely coinciding with major assessment and testing deadlines.
+- **Active Learning vs. Cognitive Offloading**: Qualitative log analyses revealed that students used the agents overwhelmingly for active learning, concept clarification, and confidence building, rather than for cognitive offloading or simple answer-seeking. 
+- **Part of a Multimodal Ecosystem**: GenAI tutors did not replace traditional resources; students continued to engage with helpsheets, video exemplars, and human tutors, confirming that AI functions best as an accessible component within a broader, multimodal support system. 
 
 [Full paper](https://studentsuccessjournal.org/index.php/studentsuccess/article/view/4019)
 ## Reflection and Cultural Competency
@@ -101,16 +93,28 @@ This work demonstrates that AI tools such as Cogniti can be used to develop agen
 
 **AI Use/Findings**
 
-**Targeted Reflective Guidance Agent**: The study developed and deployed the **Upskilling Log guidance agent** built on the Cogniti platform for a second-year Software Development Practice course at Auckland University of Technology.
-
-**Socratic & Guided Pedagogy**: The agent was system-prompted to function strictly as a Socratic tutor, supporting students through scaffolded questioning, guidance, and constructive feedback to refine their technical reflections rather than providing direct answers.
-
-**Enforced Integrity Guardrails**: Explicit system rules prohibited the agent from generating, writing, or rewriting log entries for students, ensuring the AI supported metacognitive development while preserving student authorship and academic integrity.
-
-**Enhanced Log Quality & Reflection**: Observational reviews revealed that students who engaged with the agent produced more thoroughly structured entries, demonstrated deeper technical reflection, and showed better alignment with project requirements.
-**Workload Triage & Shift to Mentoring**: By handling initial feedback on log structure and technical formatting, the agent served as a triage mechanism that reduced routine feedback burdens, enabling teaching staff to focus on higher-order mentoring during lab sessions. 
+- **Targeted Reflective Guidance Agent**: The study developed and deployed the **Upskilling Log guidance agent** built on the Cogniti platform for a second-year Software Development Practice course at Auckland University of Technology.
+- **Socratic & Guided Pedagogy**: The agent was system-prompted to function strictly as a Socratic tutor, supporting students through scaffolded questioning, guidance, and constructive feedback to refine their technical reflections rather than providing direct answers.
+- **Enforced Integrity Guardrails**: Explicit system rules prohibited the agent from generating, writing, or rewriting log entries for students, ensuring the AI supported metacognitive development while preserving student authorship and academic integrity.
+- **Enhanced Log Quality & Reflection**: Observational reviews revealed that students who engaged with the agent produced more thoroughly structured entries, demonstrated deeper technical reflection, and showed better alignment with project requirements.
+- **Workload Triage & Shift to Mentoring**: By handling initial feedback on log structure and technical formatting, the agent served as a triage mechanism that reduced routine feedback burdens, enabling teaching staff to focus on higher-order mentoring during lab sessions. 
 
 [Full paper](https://openrepository.aut.ac.nz/items/beb56fa1-1011-4600-b78f-2182a926f238)
+
+## Harnessing Generative Ai For Cultural Competence Training: Exploring The Possibilities
+
+**Abstract:**
+In this paper we share the findings from our pilot study evaluating the use of a generative AI agent designed to support users in exploring and deepening their understanding of racism and anti-racism. Our research question investigates whether such an agent can help mitigate some of the interpersonal and emotional challenges that often arise in anti-racism education. By offering a low-stakes, non- human interlocutor, the agent enables engagement with sensitive topics that individuals may otherwise avoid. In doing so, this research contributes to emerging scholarship on the role of AI in improving our uniquely human intelligence. This innovative application of AI is timely as the existing literature tends to examine AI applications related to productivity enhancement and content generation.
+
+**AI Use/Findings:**
+
+- **Targeted Anti-Racism Agent**: Built on the **Cogniti platform**, the pilot deployed a custom-trained generative AI "Anti-racism Agent" to support students and staff in exploring and deepening their understanding of race, racism, and positionality
+- **Socratic Facilitation & Curated Knowledge**: The agent was system-prompted as an expert mentor using the **Socratic method** to lead reflective conversations. It was grounded in curated, context-specific resources—such as Ibram X. Kendi’s anti-racism framework and Australian Human Rights Commission guides—to ensure responses were tailored, respectful, and safe
+- **Psychologically "Safe Space" for Reflection**: By acting as a non-human, non-judgmental interlocutor, the agent enabled users to discuss sensitive, emotionally charged topics without fear of judgment, shame, or causing interpersonal harm. Consequently, **76% of participants** reported feeling moderately to highly comfortable discussing race and racism with the AI agent compared to a human interlocutor
+- **Scaffolding Racial Literacy & Capability**: Qualitative thematic analysis revealed that brief interactions helped scaffold **racial literacy** (shifting perspectives from individual bias to structural and institutional racism) and **built capabilities** (increasing confidence and motivation to engage in anti-racist reflection and action)
+- **Early-Stage Reflective Scaffold**: Rather than replacing human dialogue, the AI agent is positioned as a low-stakes, early-stage scaffold to help users overcome initial anxiety before engaging in broader cultural competence education
+
+[Full paper ](https://www.researchgate.net/publication/400899762_HARNESSING_GENERATIVE_AI_FOR_CULTURAL_COMPETENCE_TRAINING_EXPLORING_THE_POSSIBILITIES)
 ## Teaching approaches/Techniques, e.g. active learning, flipped, etc.
 
 ### Freeman, M. (2025). Storytelling is not just for children: Using an AI chatbot to engage university students. In _Proceedings of the 2024 AIS SIGED International Conference on Information Systems Education and Research_ (Article 10). Association for Information Systems. [https://aisel.aisnet.org/siged2024/10](https://aisel.aisnet.org/siged2024/10)
