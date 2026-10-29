@@ -6,35 +6,36 @@ toc: true
 
 # Summary of Cogniti Empirical studies
 
-## Admin use
+## Admin and Pedagogical Use
 
 ### Espinosa, H. G., Whale, S., & Selvan, K. T. (2025). _Work in progress: Integrating active learning and emerging AI agent support in a blended first-year engineering course_. School of Engineering and Built Environment, Griffith University
 
-_Note: An example of a common ‘starting point’ for institutions – using agents to answer admin questions_
+Note: An example of a common ‘starting point’ for institutions – using agents to answer admin questions
 
 **Abstract:**
 This work-in-progress paper reports on the early implementation of a blended and flipped learning approach in a first-year Electronic Engineering course, introduced to modernize the learning experience and increase student engagement. Core concepts are delivered through pre-recorded videos, while workshop sessions incorporate active learning through multi-level problem sets and real-time interactive activities that promote discussion, participation, and peer engagement. These activities aim to make problem solving more dynamic by encouraging students to share their reasoning. The course uses a continuous assessment model comprising quizzes and laboratory activities, removing the traditional final exam. Laboratories provide hands-on opportunities to reinforce weekly theoretical content. An emerging AI agent was incorporated to offer content support and respond to course-related queries. Preliminary survey responses indicate that students find the developing structure more engaging than previous formats. Ongoing work aims to refine the intervention, examine patterns of AI adoption, and evaluate its educational impact as implementation continues.
 
 **AI Use/Findings:** 
-From the perspective of **AI integration and usage**, the paper details the early implementation of artificial intelligence as a structured, course-bounded learning support system in a first-year undergraduate "Electric Circuits" course. 
-1. **Pedagogical Strategy and Design Principles**
+From the perspective of **AI integration and usage**, the paper details the early implementation of artificial intelligence as a structured, course-bounded learning support system in a first-year undergraduate "Electric Circuits" course.
+
+**Pedagogical Strategy and Design Principles**
 - **Complementary Support**: The AI tools were built on the **Cogniti platform** and purposefully designed as complementary learning aids aligned strictly with official course materials, rather than serving as generic or autonomous tutors. 
 - **Instructor-Centered Framework**: The AI was positioned to supplement classroom instruction and lower barriers to seeking help, while keeping the human teaching staff central to the educational process
 - **Promoting AI Literacy**: Students were encouraged to critically evaluate AI outputs and seek instructor clarification when necessary, aiming to develop appropriate reliance, trust, and early AI literacy.
-1. **Implementation of the Two AI Agents**
-The course introduced two specialized AI agents to serve distinct functions:
 
+**Implementation of the Two AI Agents**
+The course introduced two specialized AI agents to serve distinct functions:
 **Administrative / FAQ Agent**:
     - Handled logistical and procedural queries, such as assessment due dates, laboratory instructions, and resource locations
     - Used primarily by students seeking quick clarification on schedules and course requirements.
     - Strictly constrained to access **only** information uploaded to the course site, preventing it from drawing on external or unverified information
     
-    **Course Content / Tutor Agent**:
-System-prompted to adopt a **tutoring persona**—assisting students with learning and concept explanations without simply handing out answers
+**Course Content / Tutor Agent:** 
+System-prompted to adopt a **tutoring persona**—assisting students with learning and concept explanations without simply handing out answers. 
 
 Recorded higher engagement than the FAQ agent, supporting activities like generating practice quizzes and summarizing topics
 
-[Full paper ]([Work_in_Progress_Integrating_Active_Learning_and_Emerging_AI_Agent_Support_in_a_Blended_First-Year_Engineering_Course.pdf](https://mqoutlook-my.sharepoint.com/:b:/r/personal/olga_kozar_mq_edu_au/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Folga%5Fkozar%5Fmq%5Fedu%5Fau%2FDocuments%2FCogniti%2FResearch%2FCogniti%20Studies%2FEmpirical%20studies%2FAdmin%20use%2FWork%5Fin%5FProgress%5FIntegrating%5FActive%5FLearning%5Fand%5FEmerging%5FAI%5FAgent%5FSupport%5Fin%5Fa%5FBlended%5FFirst%2DYear%5FEngineering%5FCourse%2Epdf&parent=%2Fpersonal%2Folga%5Fkozar%5Fmq%5Fedu%5Fau%2FDocuments%2FCogniti%2FResearch%2FCogniti%20Studies%2FEmpirical%20studies%2FAdmin%20use&share=cQp7Dgw%5FvHFnTp6BO06J%5FoOVEgUCcz0VNbA2CYy5X4lVr7v3qQ))
+[Full paper](https://ieeexplore.ieee.org/abstract/document/11546843)
 
 ## Support studies
 
@@ -45,16 +46,44 @@ Out of hours academic support coach
 **Abstract:** 
 How can custom AI programs extend the reach of your peer-to-peer study support services? Murdoch University has created an out-of-hours AI agent to help students unable to access the Peer Academic Coach (PAC) program during designated ‘office’ hours. Using the Cogniti generative artificial intelligence (Gen AI) system, the goal was to retain the original PAC ‘coaching’ format of asking probing questions to empower students to develop their own understanding, thereby providing immediate assistance while maintaining academic integrity. Codesigned by high-achieving PAC students, for students, a product is ready for release to students after numerous versions and hundreds of test conversations. This presentation will discuss the project design features as well as the real-world learning impact on PACs and the expected impact on students accessing the new service.
 
+**AI Use/Findings:** 
+
+**Out-of-Hours Peer Support Extension**: Built on the **Cogniti GenAI system**, the PAC AI Agent was developed to extend Murdoch University’s Peer Academic Coach (PAC) services to students studying outside standard operational hours.
+
+**Co-Designed by Student Peer Coaches**: High-achieving student PACs actively drove the design and testing process across 4 iterative versions and over 300 test conversations to ensure tailored responses and seamless integration into peer coaching workflows.
+
+**Probing & Socratic Pedagogical Style**: To maintain academic integrity, the AI agent is programmed to mirror the PAC coaching approach—asking probing questions to empower students to build their own understanding rather than simply providing direct answers.
+
+**Human-in-the-Loop Quality Assurance**: Human oversight is maintained by having PAC student coaches monitor AI conversation logs the following day to verify accuracy, with follow-up emails or face-to-face support offered when necessary.
+
+**Targeted Focus & Staff Offloading**: The agent handles common academic queries, study skills, referencing guidance, and LMS navigation, aiming to provide immediate on-demand support and reduce staff workload so human coaches can focus on complex cases. 
+
+[Full paper](https://unistars.org/papers/STUDENTSUCCESS2025/07G.pdf)
+
 ### Camacho, L., Bridge, C., & Loch, B. (2026). Generative AI-first Maths Support at a Regional Australian University. _Student Success_, _17_(2), 46–57. [https://doi.org/10.63608/ssj.4019](https://doi.org/10.63608/ssj.4019)
 
-Abstract:
+**Abstract:**
 
 Maths support has long been present in Australian tertiary education, primarily as a physical space staffed by tutors and complemented by asynchronous resources and accessible via integration into course curricula. This format has proved effective in improving student retention and transition (Horrocks et al., 2026) and will only increase in salience as student cohorts diversify. Artificial intelligence (AI) has shown potential for providing low-stakes mathematics and numeracy support that gives immediate, personalised feedback and clarification to students. A trial of generative AI (GenAI) agents as a first point of contact for mathematics support for nursing and education students at Federation University Australia found that students accessed support outside of office hours and during semester periods of highest need, indicating the potential of AI as a just-in-time learning tool. Furthermore, the qualitative data from the agent conversations showed that the agents were being utilised overwhelmingly for learning rather than cognitive offloading.
 
+**AI Use/Findings:** 
+
+**Targeted GenAI Tutoring Agents**: The study piloted two discipline-specific GenAI agents built on the Cogniti platform—**NiNA** (for nursing medication calculations) and **EdNA** (for education numeracy test preparation)—as a first point of contact for mathematics support
+
+**Socratic & Guided Pedagogy**: Designed in collaboration with academics, the agents were explicitly system-prompted to adopt a Socratic tutoring style, guiding students through scaffolded questioning and reasoning rather than providing direct answers
+
+**On-Demand & Just-in-Time Access**: A significant portion of interactions occurred outside of business hours (58.6% for NiNA and 50% for EdNA), with usage spikes closely coinciding with major assessment and testing deadlines.
+
+**Active Learning vs. Cognitive Offloading**: Qualitative log analyses revealed that students used the agents overwhelmingly for active learning, concept clarification, and confidence building, rather than for cognitive offloading or simple answer-seeking
+
+**Part of a Multimodal Ecosystem**: GenAI tutors did not replace traditional resources; students continued to engage with helpsheets, video exemplars, and human tutors, confirming that AI functions best as an accessible component within a broader, multimodal support system
+
+[Full paper](https://studentsuccessjournal.org/index.php/studentsuccess/article/view/4019)
 ## Reflection and Cultural Competency
 
 ### Chanane, N., & Kuo, M. (2025). An on-demand solution for scalable reflective tutoring using customised AI agents. In _Proceedings of the 36th Australasian Association for Engineering Education Annual Conference (AAEE 2025)_. Australasian Association for Engineering Education.
 
+**Abstract**
 Generative artificial intelligence (AI) is increasingly being explored in engineering education to support student learning and reflection. In a second-year _Software Development Practice_ course at Auckland University of Technology (AUT), Auckland, New Zealand, we developed and deployed an AI agent—the _Upskilling Log Guidance Agent_—using the Cogniti platform to help students develop and refine their Individual Upskilling Logs. Students submitted individual upskilling logs containing reflective content as part of their Sprint 0 project preparation, enabling educators to focus on deeper mentoring during laboratory sessions.
 
 **Purpose**  
@@ -69,6 +98,18 @@ Through iterative development and testing, the agent was refined to support stud
 **Conclusions**  
 This work demonstrates that AI tools such as Cogniti can be used to develop agents that strengthen reflective practice and self-directed learning in engineering education, particularly when guided by clear pedagogical frameworks and systematic, iterative refinement. It also highlights the importance of careful prompt design, explicit boundaries, and balancing AI support with educator guidance. This researcher-led approach offers a transferable model for creating AI agents that foster critical reflection while supporting academic integrity.
 
+**AI Use/Findings**
+
+**Targeted Reflective Guidance Agent**: The study developed and deployed the **Upskilling Log guidance agent** built on the Cogniti platform for a second-year Software Development Practice course at Auckland University of Technology.
+
+**Socratic & Guided Pedagogy**: The agent was system-prompted to function strictly as a Socratic tutor, supporting students through scaffolded questioning, guidance, and constructive feedback to refine their technical reflections rather than providing direct answers.
+
+**Enforced Integrity Guardrails**: Explicit system rules prohibited the agent from generating, writing, or rewriting log entries for students, ensuring the AI supported metacognitive development while preserving student authorship and academic integrity.
+
+**Enhanced Log Quality & Reflection**: Observational reviews revealed that students who engaged with the agent produced more thoroughly structured entries, demonstrated deeper technical reflection, and showed better alignment with project requirements.
+**Workload Triage & Shift to Mentoring**: By handling initial feedback on log structure and technical formatting, the agent served as a triage mechanism that reduced routine feedback burdens, enabling teaching staff to focus on higher-order mentoring during lab sessions. 
+
+[Full paper](https://openrepository.aut.ac.nz/items/beb56fa1-1011-4600-b78f-2182a926f238)
 ## Teaching approaches/Techniques, e.g. active learning, flipped, etc.
 
 ### Freeman, M. (2025). Storytelling is not just for children: Using an AI chatbot to engage university students. In _Proceedings of the 2024 AIS SIGED International Conference on Information Systems Education and Research_ (Article 10). Association for Information Systems. [https://aisel.aisnet.org/siged2024/10](https://aisel.aisnet.org/siged2024/10)
