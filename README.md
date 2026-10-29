@@ -10,17 +10,20 @@ This Obsidian vault is published with GitHub Pages at https://cogniti-research.g
 
 ## Adding a study
 
-1. Add it to the summary note under the right `##` theme as a `###` heading with the full citation, starting with the first author's surname, e.g. `### Smith, J., & Lee, K. (2026). Title...`.
-2. Add a card to `index.md` under the same theme:
+Add it to the summary note under the right `##` theme as a `###` heading with the full citation, starting with the first author's surname, e.g. `### Smith, J., & Lee, K. (2026). Title...`.
 
-   ```markdown
-   - [Title of the study](summary/#smith-2026)
-     Smith & Lee (2026) · Journal or venue
-   ```
+On a computer with the index hook set up (below), the next commit adds a card for it to `index.md`. The card's title, authors and venue are worked out from the citation, so check the new card and tidy its wording in `index.md` if needed. Your edits are kept: the hook only adds cards for new studies, removes cards for deleted ones and keeps the order in step with the summary. Theme names and descriptions in `index.md` are kept as you write them too, and a new theme starts with its heading from the summary and no description.
 
-   The anchor after `#` is the first author's surname and the year in lower case. If two studies share a surname and year, the second one gets `-2` on the end.
+Each card links to `summary/#` plus the first author's surname and the year in lower case, e.g. `summary/#smith-2026`. If two studies share a surname and year, the second one gets `-2` on the end. The study counts on the home page update themselves.
 
-The study counts on the home page update themselves.
+## Setting up the index hook
+
+Do this once on each computer that edits the vault. It needs nothing installed beyond Git, which Obsidian Git already uses, and the PowerShell that comes with Windows.
+
+1. Open PowerShell in the vault folder. On Windows 11, right-click the folder in File Explorer and choose "Open in Terminal"; otherwise open PowerShell from the Start menu and run `cd "<path to the vault>"`.
+2. Run `git config core.hooksPath scripts/hooks`.
+
+From then on, every commit (including Obsidian Git's automatic backups) runs `scripts/Update-Index.ps1` first. If the script fails, the commit still goes ahead without updating `index.md`. To rebuild the index by hand, run `powershell -ExecutionPolicy Bypass -File scripts/Update-Index.ps1`.
 
 ## Links and Obsidian
 

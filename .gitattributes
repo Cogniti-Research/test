@@ -1,0 +1,2 @@
+# Git for Windows runs hooks with sh, which fails on Windows line endings.
+scripts/hooks/* text eol=lf

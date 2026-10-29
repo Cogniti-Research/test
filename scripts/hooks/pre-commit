@@ -1,0 +1,11 @@
+#!/bin/sh
+# Brings the study cards in index.md into line with the summary note and adds index.md to the commit.
+# A failure is reported but never blocks the commit, so Obsidian Git backups keep running.
+# Enable once per computer from the vault folder: git config core.hooksPath scripts/hooks
+
+if powershell.exe -NoProfile -ExecutionPolicy Bypass -File scripts/Update-Index.ps1; then
+    git add index.md
+else
+    echo "Update-Index.ps1 failed, so index.md was not updated in this commit." >&2
+fi
+exit 0
