@@ -115,7 +115,7 @@ In this paper we share the findings from our pilot study evaluating the use of a
 - **Early-Stage Reflective Scaffold**: Rather than replacing human dialogue, the AI agent is positioned as a low-stakes, early-stage scaffold to help users overcome initial anxiety before engaging in broader cultural competence education
 
 [Full paper ](https://www.researchgate.net/publication/400899762_HARNESSING_GENERATIVE_AI_FOR_CULTURAL_COMPETENCE_TRAINING_EXPLORING_THE_POSSIBILITIES)
-## Teaching approaches/Techniques, e.g. active learning, flipped, etc.
+## McHugh, Amy & Şahin, Elif. (2026). HARNESSING GENERATIVE AI FOR CULTURAL COMPETENCE TRAINING: EXPLORING THE POSSIBILITIES. Teaching approaches/Techniques, e.g. active learning, flipped, etc.
 
 ### Freeman, M. (2025). Storytelling is not just for children: Using an AI chatbot to engage university students. In _Proceedings of the 2024 AIS SIGED International Conference on Information Systems Education and Research_ (Article 10). Association for Information Systems. [https://aisel.aisnet.org/siged2024/10](https://aisel.aisnet.org/siged2024/10)
 
