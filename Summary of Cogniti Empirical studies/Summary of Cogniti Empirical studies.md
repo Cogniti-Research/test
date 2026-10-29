@@ -13,15 +13,36 @@ toc: true
 _Note: An example of a common ‘starting point’ for institutions – using agents to answer admin questions_
 
 **Abstract:**
+This work-in-progress paper reports on the early implementation of a blended and flipped learning approach in a first-year Electronic Engineering course, introduced to modernize the learning experience and increase student engagement. Core concepts are delivered through pre-recorded videos, while workshop sessions incorporate active learning through multi-level problem sets and real-time interactive activities that promote discussion, participation, and peer engagement. These activities aim to make problem solving more dynamic by encouraging students to share their reasoning. The course uses a continuous assessment model comprising quizzes and laboratory activities, removing the traditional final exam. Laboratories provide hands-on opportunities to reinforce weekly theoretical content. An emerging AI agent was incorporated to offer content support and respond to course-related queries. Preliminary survey responses indicate that students find the developing structure more engaging than previous formats. Ongoing work aims to refine the intervention, examine patterns of AI adoption, and evaluate its educational impact as implementation continues.
 
-Abstract—This work-in-progress paper reports on the early implementation of a blended and flipped learning approach in a first-year Electronic Engineering course, introduced to modernize the learning experience and increase student engagement. Core concepts are delivered through pre-recorded videos, while workshop sessions incorporate active learning through multi-level problem sets and real-time interactive activities that promote discussion, participation, and peer engagement. These activities aim to make problem solving more dynamic by encouraging students to share their reasoning. The course uses a continuous assessment model comprising quizzes and laboratory activities, removing the traditional final exam. Laboratories provide hands-on opportunities to reinforce weekly theoretical content. An emerging AI agent was incorporated to offer content support and respond to course-related queries. Preliminary survey responses indicate that students find the developing structure more engaging than previous formats. Ongoing work aims to refine the intervention, examine patterns of AI adoption, and evaluate its educational impact as implementation continues.
+**AI Use/Findings:** 
+From the perspective of **AI integration and usage**, the paper details the early implementation of artificial intelligence as a structured, course-bounded learning support system in a first-year undergraduate "Electric Circuits" course. 
+1. **Pedagogical Strategy and Design Principles**
+- **Complementary Support**: The AI tools were built on the **Cogniti platform** and purposefully designed as complementary learning aids aligned strictly with official course materials, rather than serving as generic or autonomous tutors. 
+- **Instructor-Centered Framework**: The AI was positioned to supplement classroom instruction and lower barriers to seeking help, while keeping the human teaching staff central to the educational process
+- **Promoting AI Literacy**: Students were encouraged to critically evaluate AI outputs and seek instructor clarification when necessary, aiming to develop appropriate reliance, trust, and early AI literacy.
+1. **Implementation of the Two AI Agents**
+The course introduced two specialized AI agents to serve distinct functions:
+
+**Administrative / FAQ Agent**:
+    - Handled logistical and procedural queries, such as assessment due dates, laboratory instructions, and resource locations
+    - Used primarily by students seeking quick clarification on schedules and course requirements.
+    - Strictly constrained to access **only** information uploaded to the course site, preventing it from drawing on external or unverified information
+    
+    **Course Content / Tutor Agent**:
+System-prompted to adopt a **tutoring persona**—assisting students with learning and concept explanations without simply handing out answers
+
+Recorded higher engagement than the FAQ agent, supporting activities like generating practice quizzes and summarizing topics
+
+[Full paper ]([Work_in_Progress_Integrating_Active_Learning_and_Emerging_AI_Agent_Support_in_a_Blended_First-Year_Engineering_Course.pdf](https://mqoutlook-my.sharepoint.com/:b:/r/personal/olga_kozar_mq_edu_au/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Folga%5Fkozar%5Fmq%5Fedu%5Fau%2FDocuments%2FCogniti%2FResearch%2FCogniti%20Studies%2FEmpirical%20studies%2FAdmin%20use%2FWork%5Fin%5FProgress%5FIntegrating%5FActive%5FLearning%5Fand%5FEmerging%5FAI%5FAgent%5FSupport%5Fin%5Fa%5FBlended%5FFirst%2DYear%5FEngineering%5FCourse%2Epdf&parent=%2Fpersonal%2Folga%5Fkozar%5Fmq%5Fedu%5Fau%2FDocuments%2FCogniti%2FResearch%2FCogniti%20Studies%2FEmpirical%20studies%2FAdmin%20use&share=cQp7Dgw%5FvHFnTp6BO06J%5FoOVEgUCcz0VNbA2CYy5X4lVr7v3qQ))
 
 ## Support studies
 
 ### Page, J., & Male, S. (2025). Enhancing student support through AI: The PAC AI Agent Initiative \[Conference presentation abstract\]. Support for Learning, Murdoch University
 
-Abstract: (out of hours academic support coach)
+Out of hours academic support coach
 
+**Abstract:** 
 How can custom AI programs extend the reach of your peer-to-peer study support services? Murdoch University has created an out-of-hours AI agent to help students unable to access the Peer Academic Coach (PAC) program during designated ‘office’ hours. Using the Cogniti generative artificial intelligence (Gen AI) system, the goal was to retain the original PAC ‘coaching’ format of asking probing questions to empower students to develop their own understanding, thereby providing immediate assistance while maintaining academic integrity. Codesigned by high-achieving PAC students, for students, a product is ready for release to students after numerous versions and hundreds of test conversations. This presentation will discuss the project design features as well as the real-world learning impact on PACs and the expected impact on students accessing the new service.
 
 ### Camacho, L., Bridge, C., & Loch, B. (2026). Generative AI-first Maths Support at a Regional Australian University. _Student Success_, _17_(2), 46–57. [https://doi.org/10.63608/ssj.4019](https://doi.org/10.63608/ssj.4019)
