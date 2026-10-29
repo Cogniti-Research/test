@@ -1,70 +1,10 @@
+---
+title: Summary of Cogniti Empirical Studies
+permalink: /summary/
+toc: true
+---
+
 # Summary of Cogniti Empirical studies
-
-Contents
-
-[Summary of Cogniti Empirical studies 1](#_Toc1341648558)
-
-[1\. Admin use 1](#_Toc45621644)
-
-[1\. Espinosa, H. G., Whale, S., & Selvan, K. T. (2025). Work in progress: Integrating active learning and emerging AI agent support in a blended first-year engineering course. School of Engineering and Built Environment, Griffith University 1](#_Toc977421350)
-
-[2\. Support studies 1](#_Toc2063170370)
-
-[2\. Page, J., & Male, S. (2025). Enhancing student support through AI: The PAC AI Agent Initiative \[Conference presentation abstract\]. Support for Learning, Murdoch University 1](#_Toc321872136)
-
-[3\. Camacho, L., Bridge, C., & Loch, B. (2026). Generative AI-first Maths Support at a Regional Australian University. Student Success, 17(2), 46–57. https://doi.org/10.63608/ssj.4019 2](#_Toc1430773779)
-
-[3\. Reflection and Cultural Competency 2](#_Toc418264503)
-
-[4\. Chanane, N., & Kuo, M. (2025). An on-demand solution for scalable reflective tutoring using customised AI agents. In Proceedings of the 36th Australasian Association for Engineering Education Annual Conference (AAEE 2025). Australasian Association for Engineering Education. 2](#_Toc1553718348)
-
-[4\. Teaching approaches/Techniques, e.g. active learning, flipped, etc. 3](#_Toc1908763616)
-
-[5\. Freeman, M. (2025). Storytelling is not just for children: Using an AI chatbot to engage university students. In Proceedings of the 2024 AIS SIGED International Conference on Information Systems Education and Research (Article 10). Association for Information Systems. https://aisel.aisnet.org/siged2024/10 4](#_Toc1597043970)
-
-[6\. Naeyaert, P. J., Scarratt, L. R., Murphy, T., & Pullen, R. (2025). Think–Pair–Chatbot–Share: AI-Facilitated Peer Learning in Chemistry. Journal of Chemical Education, 102(9), 3936-3944. 4](#_Toc299255696)
-
-[5\. Feedback to students 4](#_Toc131928697)
-
-[7\. Saravana, A., Lin, L., Tahmasebinia, F., & Sepasgozar, S. (2025). Artificial intelligence (AI) assisted feedback in civil engineering education. In Proceedings of the 36th Australasian Association for Engineering Education Annual Conference (AAEE 2025). Australasian Association for Engineering Education 4](#_Toc857638894)
-
-[8\. Goundar, P. R., & Li, H. (2026). Artificial intelligence in the evaluation of academic writing in higher education. English Language Teaching, 19(4), 51–60. https://doi.org/10.5539/elt.v19n4p51 5](#_Toc818812101)
-
-[9\. Huynh, M., van den Berg, F., Pozza, L., & Van Ogtrop, F. (2024). How generative AI can enhance personalised feedback at scale. In Proceedings of the Australian Conference on Science and Mathematics Education (ACSME 2024) (p. 50). University of Canberra. 6](#_Toc944619449)
-
-[10\. Vallis, C., Huber, E., Sun, J. Z., & Bryant, P. (2026). Hand in hand: designing and integrating human and AI-generated feedback in business education. Journal of Work-Applied Management, 1-14. 7](#_Toc1547299795)
-
-[6\. Student reactions 7](#_Toc731084024)
-
-[11\. MacKay, G., Bird, R., Gorman, J., Scott, S., Walker, R., & Wang, C. (2025). Evaluating an AI agent to assist student learning in a 200-level Genetics practical. Department of Genetics & Centre for Educational Design and Innovation, University of Otago 7](#_Toc1722036983)
-
-[12\. Kobler, S., Clemson, M., Sun, A., & Kummerfeld, J. K. (2026, July). Your Students Don’t Use LLMs Like You Wish They Did. In Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) (pp. 19146-19170). 8](#_Toc593302681)
-
-[7\. Health Education (Teaching Content + Roleplays) 8](#_Toc1434718519)
-
-[13\. Elliott, S., Richter, M., Alozie, C., & Raidis, D. (2026). Student perceptions of personalised GenAI agents on student learning, success, engagement, and wellbeing: A pilot study of Cogniti AI. Technology, Knowledge and Learning, advance online publication. https://doi.org/10.1007/s10758-025-09942-7 8](#_Toc331090922)
-
-[14\. Or, A., Sukumar, S., Ma, A., Ang, D., Liu, M., Ritchie, H. E., & Sarrafpour, B. (2025). Enhancing dental students’ history-taking skills with a generative artificial intelligence chatbot. Journal of Dental Education, advance online publication. https://doi.org/10.1002/jdd.13952 8](#_Toc1221487792)
-
-[15\. Mathews, P., Adams, J., & Cheyne, C. (2025). Personalised learning for nursing education with Gen-AI chatbots. Nursing Praxis in Aotearoa New Zealand, 41(1), Article 151665. https://doi.org/10.36951/001c.151665 8](#_Toc504309619)
-
-[8\. STEM 8](#_Toc1701277912)
-
-[16\. Otemis, M. B., & Caiko, J. (2025). Using a custom AI chatbot platform to foster higher-order cognitive thinking in programming education. In Proceedings of the 2025 IEEE 66th International Scientific Conference on Power and Electrical Engineering of Riga Technical University (RTUCON) (pp. 1–6). IEEE. 8](#_Toc280382505)
-
-[9\. ARTS 8](#_Toc1525061765)
-
-[17\. Liang, Q. (2025). Cogniti, the Socratic AI tutor, and its impact on student learning in a conservatory musicology course \[Master's thesis, University of Sydney\]. Sydney Conservatorium of Music. 8](#_Toc280140423)
-
-[10\. Staff-facing/Learning Design 8](#_Toc780337091)
-
-[18\. Tibbs, A. (2025). Building capacity for AI-powered learning: A collaborative trial of conversational agents in higher education. In S. Barker, S. Kelly, R. McInnes, & S. Dinmore (Eds.), Future Focussed: Educating in an era of continuous change. Proceedings ASCILITE 2025 (pp. 610–614). ASCILITE. https://doi.org/10.65106/apubs.2025.2647 8](#_Toc496534008)
-
-[19\. Lindsay, J., & Jacka, L. (2026). A rose by any other name: AI augmented HyFlex learning. Journal of Applied Learning and Teaching, 9(2). 8](#_Toc1228646594)
-
-[11\. Other 8](#_Toc1515634265)
-
-[20\. Katsanos, M. (2026). The Impact of Generative AI on Creativity (Master dissertation, Open Access Te Herenga Waka-Victoria University of Wellington). 8](#_Toc1293708091)
 
 ## Admin use
 
@@ -120,7 +60,7 @@ This paper explores how Scenario Based Learning \[SBL\] can be co-designed with 
 
 **ABSTRACT:** This study introduces and evaluates the Think–Pair–Chatbot–Share (TPCS) model, an adaptation of the traditional Think–Pair–Share (TPS) framework that integrates a generative AI (GenAI) chatbot to scaffold learning and provide feedback. We compared first-year chemistry students learning ionisation energy and atomic structure using traditional TPS versus the GenAI-facilitated TPCS model. Student responses from the think and share stages were analysed for accuracy and common errors, and engagement was examined via participation rates. For students who completed all stages, the GenAI-facilitated TPCS group produced a higher proportion of correct share-stage responses in three of the four tasks. However, the TPCS intervention was associated with lower overall participation, suggesting potential challenges in sustaining engagement in a GenAI-facilitated, multi-step activity. These findings provide early classroom-level evidence of AI-mediated TPS in tertiary chemistry education and highlight both its instructional potential and the need to address engagement barriers.
 
-## **Feedback to students**
+## Feedback to students
 
 ### Saravana, A., Lin, L., Tahmasebinia, F., & Sepasgozar, S. (2025). Artificial intelligence (AI) assisted feedback in civil engineering education. In Proceedings of the 36th Australasian Association for Engineering Education Annual Conference (AAEE 2025). Australasian Association for Engineering Education
 
@@ -180,9 +120,9 @@ Abstract: Educational NLP systems are typically evaluated using engagement metri
 
 Olga’s notes: the abstract does not mention the comparison between unrestrained AI and ‘restrained’ AI (= Cogniti), but there are intersting findings in the paper about it. Briefly,
 
-<span style="color: #303030">Comparing unrestrained AI platforms with **Cogniti** (the restrained, Socratic platforms):</span>
+Comparing unrestrained AI platforms with **Cogniti** (the restrained, Socratic platforms):
 
-<span style="color: #303030">**Exploratory Dialogue vs. Answer Seeking**: Unrestrained platforms resulted in near-total answer-seeking behavior, whereas Cogniti platforms fostered substantially more exploratory, conceptual dialogue by enforcing guided hints and Socratic prompts</span>
+**Exploratory Dialogue vs. Answer Seeking**: Unrestrained platforms resulted in near-total answer-seeking behavior, whereas Cogniti platforms fostered substantially more exploratory, conceptual dialogue by enforcing guided hints and Socratic prompts
 
 ## Health Education (Teaching Content + Roleplays)
 

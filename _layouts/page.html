@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<div class="wrap{% if page.toc %} with-toc{% endif %}">
+  {% if page.toc %}
+  <aside class="toc" aria-label="Contents">
+    <details open>
+      <summary>Contents</summary>
+      <nav id="toc-list"></nav>
+    </details>
+  </aside>
+  {% endif %}
+  <article class="content prose">
+    {{ content }}
+    {% if page.toc %}<p class="back-to-top"><a href="#top">Back to Top</a></p>{% endif %}
+  </article>
+</div>
