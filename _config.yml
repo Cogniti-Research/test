@@ -1,0 +1,24 @@
+title: Cogniti Research
+description: Summaries of published empirical studies on the use of Cogniti AI agents in teaching and learning.
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# Every note uses the page layout unless its front matter says otherwise.
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
+
+# Shown in the site header, in order.
+nav:
+  - title: Home
+    url: /
+  - title: Full Summary
+    url: /summary/
+
+exclude:
+  - README.md

@@ -1,1 +1,0 @@
-[[Summary of Cogniti Empirical studies]]
